@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+        <link rel="stylesheet" href="node_modules/vazirmatn/misc/Farsi-Digits/Vazirmatn-FD-font-face.css">
+</head>
+<style>
+   
+    body{
+        font-family: Vazirmatn FD;
+    }
+
+
+    img {
+        width: 100%;
+    }
+
+    header {
+        background-color: #333;
+        text-align: center;
+        padding: 10px;
+    }
+
+    header h1,
+    p {
+        color: #f2f2f2;
+        padding: 10px;
+    }
+
+    main {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    main>section {
+        flex: 1;
+        padding: 10px;
+        text-align: center;
+    }
+
+
+    main p {
+        color: black;
+        text-align: justify;
+    }
+
+    footer {
+        background-color: #333;
+        position: relative;
+       
+    }
+    footer p{
+        text-align: center;
+        color: #f2f2f2;
+        padding: 20px;
+    }
+
+    main h3 {
+        color: green;
+        padding: 10px;
+    }
+
+    main a {
+        display: block;
+        text-decoration: none;
+        width: 150px;
+        background-color: rgb(30, 139, 207);
+        text-align: center;
+        padding: 20px;
+        margin: 5px auto;
+        border-radius: 10px;
+        color: #f2f2f2;
+    }
+
+    #slider {
+        position: relative;
+    }
+
+    .statement {
+        position: absolute;
+        padding: 10px;
+        background-color: red;
+        top: 0;
+        border-radius: 50%;
+        color: #f2f2f2;
+    }
+
+    #shop{
+        position: absolute;
+       bottom: 5px;
+        color: #080707;
+        left: 5px;
+        color: #f2f2f2;
+    }
+  #number{
+    position: absolute;
+    background-color: red;
+    bottom:25px;
+    border-radius:50% ;
+    left: 20px;
+  }
+</style>
+
+<body>
+    <header>
+        <h1>
+            فروشگاه من
+        </h1>
+        <p>بهترین محصولات را با بهترین قیمت انتخاب کنید</p>
+    </header>
+    <main id="slider">
+        <section>
+            <img src="https://picsum.photos/100/80?random=1" alt="">
+            <div class="statement">ویژه</div>
+            <h2>
+                هدفون بی سیم
+            </h2>
+            <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+                متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد قرار گیرد.
+
+
+            </p>
+            <h3> 3,500,000 تومان </h3><a href="">خرید محصول</a>
+        </section>
+        <section>
+            <img src="https://picsum.photos/100/80?random=2" alt="">
+            <div class="statement">
+                جدید
+            </div>
+            <h2>
+                گوشی هوشمند
+            </h2>
+            <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+                متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد قرار گیرد.
+
+            </p>
+            <h3>25,000,000 تومان</h3><a href="">خرید محصول</a>
+        </section>
+        <section>
+            <img src="https://picsum.photos/100/80?random=3" alt="">
+            <div class="statement">
+                20% تخفیف
+            </div>
+            <h2>
+                لپ تاپ حرفه ای
+            </h2>
+            <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+                متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد قرار گیرد.
+
+            </p>
+            <h3>45,000,000 تومان</h3><a href="">خرید محصول</a>
+        </section>
+    </main>
+    <footer>
+        <p>تمامی حقوق محفوظ است</p>
+        <div id="shop">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <div id="number">3</div>
+    </div>
+
+    </footer>
+    
+    
+</body>
+
+</html>
